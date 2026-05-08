@@ -29,7 +29,7 @@ Le niveau de risque global est évalué comme  **Élevé**.
 
 | | |
 |--|--|
-| **Sévérité** | 🟡 Moyenne |
+| **Sévérité** | Moyenne |
 | **Localisation** | `AndroidManifest.xml` — attribut de `<application>` |
 
 **Description :**  
@@ -47,7 +47,7 @@ Définir `android:allowBackup="false"` dans le manifest.
 
 | | |
 |--|--|
-| **Sévérité** | 🔴 Élevée |
+| **Sévérité** |  Élevée |
 | **Localisation** | `sg.vantagepoint.uncrackable1.MainActivity.onCreate()`, `sg.vantagepoint.a.c` |
 
 **Description :**  
@@ -65,7 +65,7 @@ Utiliser une solution d'attestation d'intégrité côté serveur (Google Play In
 
 | | |
 |--|--|
-| **Sévérité** | 🔴 Élevée |
+| **Sévérité** |  Élevée |
 | **Localisation** | `sg.vantagepoint.a.a.a(byte[], byte[])`, `sg.vantagepoint.uncrackable1.a` |
 
 **Description :**  
@@ -83,7 +83,7 @@ Ne jamais stocker de clés cryptographiques dans le code. Utiliser Android Keyst
 
 | | |
 |--|--|
-| **Sévérité** | 🟢 Faible |
+| **Sévérité** |  Faible |
 | **Localisation** | `AndroidManifest.xml` — `<uses-sdk>` |
 
 **Description :**  
